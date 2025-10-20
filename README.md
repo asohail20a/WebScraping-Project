@@ -9,7 +9,7 @@ and stores the results in a CSV file for further analytics or dashboard creation
 
 ## How to Run the Script
 
-1. **Install required libraries**  
+1. **Install required libraries**
    pip install requests beautifulsoup4 csv timer
 
 2. **Run the script**
