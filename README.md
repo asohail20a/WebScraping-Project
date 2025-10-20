@@ -32,5 +32,5 @@ and stores the results in a CSV file for further analytics or dashboard creation
 ---
 
 ## Notes
-The script supports pagination and automatically scrapes all pages (default: 24 pages).
-A short delay (time.sleep(3)) is added between requests to avoid rate limiting or temporary bans.
+- The script supports pagination and automatically scrapes all pages (default: 24 pages).  
+- A short delay (time.sleep(3)) is added between requests to avoid rate limiting or temporary bans.
