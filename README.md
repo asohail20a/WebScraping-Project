@@ -8,7 +8,6 @@ and stores the results in a CSV file for further analytics or dashboard creation
 ---
 
 ## How to Run the Script
-
 1. **Install required libraries**  
    pip install requests beautifulsoup4 csv timer
 
@@ -29,3 +28,9 @@ and stores the results in a CSV file for further analytics or dashboard creation
 | `Type`        | Condition (New / Used)      |
 | `Seller`      | Seller or store name        |
 | `Seller_Link` | URL to the seller’s profile |
+
+---
+
+## Notes
+The script supports pagination and automatically scrapes all pages (default: 24 pages).
+A short delay (time.sleep(3)) is added between requests to avoid rate limiting or temporary bans.
